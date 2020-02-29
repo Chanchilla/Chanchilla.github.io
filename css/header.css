@@ -4,6 +4,10 @@
 }
 .navigation li {
     margin-right: 20px;
-    border: black solid 1px;
+    border: red solid 1px;
     padding: 15px 30px;
+    position: static;
+    background-color: #fff;
+    align-items: center;
+    color: #fff;
 }
