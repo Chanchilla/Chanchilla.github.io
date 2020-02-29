@@ -3,7 +3,7 @@ header img {
     margin: 10px 10px;
 }
 header {
-    background-color: white;
+    background-color: #00726E;
     position: fixed;
     top: 0;
     left: 0;
@@ -14,7 +14,7 @@ header {
 }
 header * {
     font-family: 'Spartan';
-    color: black;
+    color: white;
     display: inline;
     margin-top: 23px;
 }
