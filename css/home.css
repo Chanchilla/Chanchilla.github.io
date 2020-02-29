@@ -1,0 +1,7 @@
+.graph-images {
+    max-width: auto;
+    max-height: 400px;
+}
+.body .content-box {
+    display: flex;
+}
