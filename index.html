@@ -1,31 +1,75 @@
-
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Homepage</title>
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/home.css">
-</head>
-<body>
-<ul class="navigation">
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">Projects</a></li>
-  <li><a href="contact.asp">Organizations</a></li>
-</ul>
-<section class="body">
-    <div class="top-section">
-        <h1>yee</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div>
-        <h2>yeyeyehfrjnhvytujbjydntv</h2>
-        <div class="content-box">
-            <p>herfbjerfreyurjvrbeuertv</p>
-            <img src="images/chandra.jpg" class="graph-images">
-        </div>
-    </div>
-</section>
-</body>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/home.css" />
+
+  </head>
+  <body>
+  <div class="ct-chart">
+  <ul class="navigation">
+      <li><a href="default.asp">Home</a></li>
+      <li><a href="news.asp">Projects</a></li>
+      <li><a href="contact.asp">Organizations</a></li>
+  </ul>
+  <section class="body">
+      <div class="top-section">
+          <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/chartist-plugin-legend/0.6.2/chartist-plugin-legend.min.js"></script>
+          <style>
+              .ct-series-a .ct-bar {
+                  stroke: #4285F4;
+                  stroke-width: 10px;
+              }
+              .ct-series-b .ct-bar {
+                  stroke: #EA4335;
+                  stroke-width: 10px
+              }
+          </style>
+          <script>
+
+
+              new Chartist.Bar('.ct-chart', {
+                  labels: ['All CTE Students', 'Computer Science'],
+                  series: [
+                      [45, 55],
+                      [29, 71]
+                  ],
+              },
+                  {
+                  width: 500,
+                  height: 300
+              });
+          </script>
+          <h1>yee</h1>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+      </div>
+      <div>
+          <h2>yeyeyehfrjnhvytujbjydntv</h2>
+          <div class="content-box">
+              <p>herfbjerfreyurjvrbeuertv</p>
+              <img src="images/chandra.jpg" class="graph-images" />
+          </div>
+      </div>
+  </section>
+  </body>
 </html>
