@@ -1,15 +1,21 @@
 .img-right {
+  display: flex;
   float: right;
   padding: 10px;
   width: 140px;
 }
 
 .img-left {
+  display: flex;
   float: left;
   padding: 10px;
   width: 140px;
 }
 
+img {
+  padding: 25px 50px;
+}
+
 p {
-  margin-top: 20px;
+  padding: 10px;
 }
