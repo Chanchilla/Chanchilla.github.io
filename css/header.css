@@ -1,13 +1,28 @@
-.navigation {
-    display: flex;
-    list-style-type: none;
+header img {
+    height: 40px;
+    margin: 10px 10px;
 }
-.navigation li {
-    margin-right: 20px;
-    border: red solid 1px;
-    padding: 15px 30px;
-    position: static;
-    background-color: #fff;
-    align-items: center;
-    color: #fff;
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    box-shadow: 0 0 25px 0 black;
+}
+header * {
+    font-family: 'Spartan';
+    color: black;
+    display: inline;
+    margin-top: 23px;
+}
+header li {
+    margin: 10px;
+    margin: 0 40px 0 -10px;
+}
+
+header li a {
+    text-decoration: none;
 }
