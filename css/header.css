@@ -1,6 +1,6 @@
 header img {
-    height: 40px;
-    margin: 10px 10px;
+    height: 60px;
+    margin: 10px 20px;
 }
 header {
     background-color: #00726E;
@@ -8,7 +8,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: 80px;
     display: flex;
     box-shadow: 0 0 25px 0 black;
 }
@@ -16,7 +16,7 @@ header * {
     font-family: 'Spartan';
     color: white;
     display: inline;
-    margin-top: 23px;
+    margin-top: 35px;
 }
 header li {
     margin: 10px;
@@ -24,13 +24,4 @@ header li {
 }
 header li a {
     text-decoration: none;
-}
-
-@media only screen and (max-width: 578px){
-    header img {
-        height: 20px;
-    }
-    header * {
-        font-size: 10px;
-    }
 }
